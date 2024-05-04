@@ -313,8 +313,8 @@ summary {
 }
 
 a {
-	outline: none;
-  	text-decoration: none;
+	/* outline: none; */
+  	/* text-decoration: none; */
 }
 
 li {
