@@ -21,18 +21,31 @@
 // });
 
 var swiper = new Swiper(".swiper", {
-    effect: "coverflow",
-    grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: "auto",
-    coverflowEffect: {
+  effect: "coverflow",
+  grabCursor: true,
+  centeredSlides: true,
+  touchRatio: 2,
+  slideToClickedSlide: true,
+
+  slidesPerView: "auto",
+  coverflowEffect: {
     rotate: 50,
     stretch: 0,
     depth: 100,
     modifier: 1,
     slideShadows: true,
-    },
-    pagination: {
+  },
+  pagination: {
     el: ".swiper-pagination",
-    },
+    clickable: true,
+    dynamicBullets: true,
+  },
+  keyboard: {
+    enabled: true,
+    onlyInViewport: true,
+    pageUpDown: true,
+  },
+  mousewheel: {
+    invert: true,
+  },
 });
