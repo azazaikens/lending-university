@@ -274,9 +274,26 @@
   padding-left: 72px;
 }
 
+.our-pride {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 32px;
+}
+
+.our-pride-container-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: start;
+  padding-right: 74px;
+}
+
 .our-pride__img {
-  height: 100%;
-  width: 100%;
+  width: 592px;
+  height: 588px;
+  border-radius: 10px;
 
   padding-bottom: 10px;
 
@@ -431,4 +448,28 @@
 
   font-size: 16px;
   line-height: 24px;
+}
+
+
+
+
+
+
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
 }
