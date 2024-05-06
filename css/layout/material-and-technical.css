@@ -1,0 +1,13 @@
+.material-and-technical {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  flex-wrap: nowrap;
+
+  gap: 32px;
+}
+
+.material-and-technical-container-text {
+  text-align: start;
+  padding-left: 72px;
+}

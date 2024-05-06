@@ -2,5 +2,27 @@
 
 @import url(./modern-normalize.css);
 
+@import url(./base/container.css);
+@import url(./base/section.css);
+@import url(./base/global-class.css);
+
+
+@import url(./layout/hero-section.css);
+@import url(./layout/come-to-us.css);
+@import url(./layout/uikb-why.css);
+@import url(./layout/why-us.css);
+@import url(./layout/why-for-study.css);
+@import url(./layout/material-and-technical.css);
+@import url(./layout/our-pride.css);
+@import url(./layout/need-to-know-container.css);
+@import url(./layout/our-team.css);
+@import url(./layout/svg.css);
+@import url(./layout/image.css);
+
+
+
+
+
+
 
 @import url(./index.css);

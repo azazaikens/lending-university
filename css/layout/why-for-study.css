@@ -1,0 +1,43 @@
+.why-for-study {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  gap: 32px;
+}
+
+.why-for-study-list {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.why-for-study-list-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.why-for-study-list-item__span-wrapper-svg {
+  padding: 8px;
+  border-radius: 10px;
+  background-color: rgba(219, 238, 255, 1);
+}
+
+.why-for-study-container-text {
+  text-align: start;
+
+  padding-right: 72px;
+  max-width: 590px;
+}
+
+.why-for-study-list-item__text {
+  padding-bottom: 0;
+}
+
+.why-for-study__img {
+  width: 592px;
+  height: 610px;
+
+  border-radius: 10px;
+}

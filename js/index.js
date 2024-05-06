@@ -5,7 +5,8 @@ var swiper = new Swiper(".swiper", {
   touchRatio: 2,
   slideToClickedSlide: true,
   slidesPerView: 3,
-  initialSlide: 1,
+    initialSlide: 1,
+  loop: true,
 
   coverflowEffect: {
     rotate: 50,

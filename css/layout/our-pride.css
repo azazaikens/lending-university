@@ -1,0 +1,25 @@
+.our-pride {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 32px;
+}
+
+.our-pride-container-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: start;
+  padding-right: 74px;
+}
+
+.our-pride__img {
+  width: 592px;
+  height: 588px;
+  border-radius: 10px;
+
+  padding-bottom: 10px;
+
+  border-radius: 30px;
+}

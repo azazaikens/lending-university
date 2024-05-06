@@ -1,0 +1,9 @@
+.companies-logo-section-list {
+  display: flex;
+  gap: 32px;
+}
+
+.companies-logo-section-list-item__svg {
+   fill: blue;
+
+}

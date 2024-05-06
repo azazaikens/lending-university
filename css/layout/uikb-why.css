@@ -1,0 +1,32 @@
+.uikb-why {
+  padding-top: 0;
+}
+
+.uikb-why__title {
+  padding-bottom: 64px;
+}
+
+.uikb-why-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  flex-wrap: wrap;
+
+  width: 100%;
+
+  text-align: start;
+}
+
+.uikb-why-list-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+
+  max-width: 384px;
+}
+
+.uikb-why-list-item-container-text__text {
+  font-size: 16px;
+  line-height: 24px;
+}

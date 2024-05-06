@@ -1,0 +1,71 @@
+.need-to-know {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.need-to-know-container-img {
+  display: flex;
+  gap: 32px;
+
+  max-width: 590px;
+}
+
+.need-to-know-container__img {
+  display: inline-table;
+
+  max-width: 280px;
+}
+.need-to-know-container__img:first-child {
+  padding-top: 128px;
+}
+.need-to-know-container__img:last-child {
+  padding-bottom: 128px;
+}
+
+.need-to-know-container-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 48px;
+  justify-content: center;
+
+  height: 610px;
+  padding-left: 76px;
+
+  text-align: start;
+}
+
+.need-to-know-container-text-list {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.need-to-know-container-text-list-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+}
+
+.need-to-know-container-text__text {
+  padding-bottom: 0;
+}
+
+.need-to-know-container-text__linc {
+  color: #0072de;
+
+  font-size: 18px;
+  line-height: 28px;
+}
+.need-to-know-container-text__linc:focus,
+.need-to-know-container-text__linc:hover {
+  color: #404bbf;
+  cursor: pointer;
+}
+
+.need-to-know-container-text-list-item__little-title {
+  padding-bottom: 0;
+}

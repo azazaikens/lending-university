@@ -1,0 +1,76 @@
+.our-team-container-text {
+  padding-bottom: 64px;
+}
+
+.our-team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 64px;
+  column-gap: 28px;
+}
+
+.our-team-list-item {
+  display: flex;
+
+  width: 610px;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+
+  cursor: pointer;
+}
+
+.our-team-list-item__img {
+  width: 208px;
+  height: 248px;
+}
+
+.our-team-list-item-container-text {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 16px;
+
+  text-align: start;
+
+  padding: 24px 16px 24px 24px;
+}
+
+.our-team-list-item-container-text__name {
+  position: relative;
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+}
+.our-team-list-item-container-text__name:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px; /* Высота линии */
+  background-color: black; /* Цвет подчеркивания при исчезании линии*/
+  transition: width 0.5s; /* Время эффекта */
+}
+
+.our-team-list-item-container-text__name:hover:after {
+  content: "";
+  width: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 2px; /* Высота линии */
+  background-color: #4d5ae5; /* Цвет подчеркивания при появлении линии*/
+  transition: width 0.5s; /* Время эффекта */
+}
+
+.our-team-list-item__text {
+  padding-bottom: 0;
+
+  font-size: 16px;
+  line-height: 24px;
+}
