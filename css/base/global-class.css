@@ -41,15 +41,14 @@ color: #4b5563;
 }
 }
 @media screen and (min-width: 1200px) {
-
+  [class*="__title"] {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #111827;
+  }
 }
 
-[class*="__title"] {
-  font-size: 36px;
-  font-weight: 600;
-  line-height: 44px;
-  color: #111827;
-}
 
 
 

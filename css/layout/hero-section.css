@@ -42,8 +42,9 @@
   border: none;
   border-radius: 12px;
   color: white;
-  background: #4d5ae5;
-  background-color: #4d5ae5;
+  background: rgba(0, 114, 222, 1);
+  background-color: rgba(0, 114, 222, 1);
+;
   text-decoration: none;
 
   font-weight: 500;
