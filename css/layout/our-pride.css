@@ -1,18 +1,31 @@
-.our-pride {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  gap: 32px;
+@media screen and (min-width: 320px) {
+  .our-pride {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 32px;
+  }
+  
+  .our-pride-container-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+
+    max-width: 590px;
+    padding-right: 74px;
+  }
+}
+@media screen and (min-width: 740px) {
+  
+}
+@media screen and (min-width: 1200px) {
+  .our-pride {
+    flex-direction: row;
+  }
 }
 
-.our-pride-container-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  text-align: start;
-  padding-right: 74px;
-}
+
 
 .our-pride__img {
   width: 592px;

@@ -1,13 +1,35 @@
-.material-and-technical {
+@media screen and (min-width: 320px) {
+  .material-and-technical {
   display: flex;
-  flex-direction: row;
-  justify-content: start;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
   flex-wrap: nowrap;
+  
 
-  gap: 32px;
+  gap: 48px;
+  }
+
+  .material-and-technical-container-text {
+    max-width: 590px;
+    text-align: start;
+  }
+  .material-and-technical-container-text__text {
+    padding-bottom: 0;
+  }
+}
+@media screen and (min-width: 740px) {
+
+}
+@media screen and (min-width: 1300px) {
+  .material-and-technical {
+    gap: 32px;
+    flex-direction: row;
+  }
+
+  .material-and-technical-container-text {
+    padding-left: 72px;
+  }
 }
 
-.material-and-technical-container-text {
-  text-align: start;
-  padding-left: 72px;
-}
+

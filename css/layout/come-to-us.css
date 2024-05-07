@@ -1,3 +1,34 @@
+@media screen and (min-width: 320px) {
+  .come-to-us-container-button {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  }
+
+  .come-to-us__big-title {
+    padding-bottom: 16px;
+  }
+
+  .come-to-us-container-button {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+}
+@media screen and (min-width: 740px) {
+  .come-to-us-container-button {
+    flex-direction: row;
+  }
+
+  .come-to-us-container-button {
+    width: fit-content;
+  }
+}
+@media screen and (min-width: 1200px) {
+}
+
 .come-to-us {
   background-color: #f9fafb;
   border-radius: 32px;
@@ -13,9 +44,4 @@
 
   background-color: #f9fafb;
   border-radius: 32px;
-}
-
-.come-to-us-container-button {
-  display: flex;
-  gap: 24px;
 }
