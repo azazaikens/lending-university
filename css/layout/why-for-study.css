@@ -9,26 +9,25 @@
   }
 
   .why-for-study__img {
-    max-width: 592px;
     height: 100%;
-  
+    
     border-radius: 10px;
   }
-
+  
   .why-for-study-container-text {
-  text-align: start;
-
-  padding-right: 72px;
-  max-width: 590px;
+    text-align: start;
+    
+    padding-right: 72px;
+    max-width: 590px;
   }
-
+  
   .why-for-study-list {
-  display: flex;
-  flex-direction: column;
-  gap: 48px;
-  padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding-bottom: 48px;
   }
-
+  
   .why-for-study-list-item__little-title {
     padding-bottom: 24px;
   }
@@ -37,9 +36,15 @@
   .why-for-study-list-item {
     flex-direction: row;
   }
-
+  
+  .why-for-study__img {
+    max-width: 592px;
+  }
 }
 @media screen and (min-width: 1200px) {
+  .why-for-study__img {
+    height: 620px;
+  }
   .why-for-study-list-item__little-title {
     padding-bottom: 8px;
   }

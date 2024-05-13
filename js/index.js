@@ -3,9 +3,9 @@ var swiper = new Swiper(".swiper", {
   grabCursor: true,
   centeredSlides: true,
   touchRatio: 2,
-  slideToClickedSlide: true,
+  // slideToClickedSlide: true,
   slidesPerView: 3,
-    initialSlide: 1,
+  initialSlide: 0,
   loop: true,
 
   coverflowEffect: {
@@ -27,5 +27,14 @@ var swiper = new Swiper(".swiper", {
   },
   mousewheel: {
     invert: true,
+  },
+
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    740: {
+      slidesPerView: 3,
+    },
   },
 });
