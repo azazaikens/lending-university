@@ -19,6 +19,12 @@
     text-align: start;
   }
 
+  .need-to-know-container-text-list {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+
   .need-to-know-container-text-list-item {
     display: flex;
     flex-direction: column;
@@ -29,53 +35,52 @@
 
   .need-to-know-container-img {
     display: flex;
-    gap: 32px;
+    gap: 16px;
 
-    width: 300px;
-    max-height: 352px;
+    max-width: 590px;
+    max-height: 100%;
   }
 
   .need-to-know-container--img {
     display: inline-table;
 
     width: 47.4%;
-    height: 354px;
+    height: 100%;
 
     border-radius: 10px;
   }
   .need-to-know-container--img:first-child {
-    padding-top: 78px;
+    margin-top: 116px;
   }
   .need-to-know-container--img:last-child {
-    padding-bottom: 78px;
+    margin-bottom: 78px;
   }
 }
-@media screen and (min-width: 480px) {
+/* @media screen and (min-width: 480px) {
   .need-to-know-container-img {
     display: flex;
     gap: 32px;
 
     padding-left: 10px;
 
-    width: 460px;
-    max-height: 352px;
+    max-width: 460px;
   }
-}
+} */
 @media screen and (min-width: 740px) {
   .need-to-know-container-img {
-    width: 588px;
-    max-height: 610px;
+    max-width: 588px;
+    height: 100%;
   }
 
   .need-to-know-container--img {
     /* max-width: 226px; */
-    height: 482px;
+    height: 100%;
   }
   .need-to-know-container--img:first-child {
-    padding-top: 104px;
+    margin-top: 142px;
   }
   .need-to-know-container--img:last-child {
-    padding-bottom: 104px;
+    margin-bottom: 104px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -85,8 +90,12 @@
 
   .need-to-know-container-text {
     height: 610px;
-    padding-left: 76px;
+    padding-left: 0;
     padding-bottom: 0;
+  }
+
+  .need-to-know-container-text-list {
+    gap: 24px;
   }
 
   .need-to-know-container-text-list-item {
@@ -98,34 +107,29 @@
     display: inline-table;
 
     /* max-width: 280px; */
-    height: 610px;
+    height: 100%;
   }
   .need-to-know-container--img:first-child {
-    padding-top: 128px;
+    margin-top: 178px;
   }
   .need-to-know-container--img:last-child {
-    padding-bottom: 128px;
+    margin-bottom: 128px;
   }
-}
-
-.need-to-know-container-text-list {
-  display: flex;
-  flex-direction: column;
-  gap: 48px;
 }
 
 .need-to-know-container-text__text {
   padding-bottom: 0;
 }
 
-.need-to-know-container-text__linc {
+.need-to-know__link {
+  display: inline-block;
   color: #0072de;
 
   font-size: 18px;
   line-height: 28px;
 }
-.need-to-know-container-text__linc:focus,
-.need-to-know-container-text__linc:hover {
+.need-to-know-container-text__link:focus,
+.need-to-know-container-text__link:hover {
   color: #404bbf;
   cursor: pointer;
 }
