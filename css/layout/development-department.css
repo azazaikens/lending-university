@@ -1,11 +1,11 @@
 @media screen and (min-width: 320px) {
-  .our-pride {
+  .development-department {
     display: flex;
     flex-wrap: nowrap;
     gap: 32px;
   }
-  
-  .our-pride-container-text {
+
+  .development-department-container-text {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -17,17 +17,14 @@
   }
 }
 @media screen and (min-width: 740px) {
-  
 }
 @media screen and (min-width: 1200px) {
-  .our-pride {
+  .development-department {
     flex-direction: row;
   }
 }
 
-
-
-.our-pride__img {
+.development-department__img {
   width: 592px;
   height: 588px;
   border-radius: 10px;
